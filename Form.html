@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="Form.css">
+  </head>
+  <body>
+    <main>
+      <div class="box">
+
+
+    <form search-input" method="post" >
+    <h1><strong>Введите личные данные</strong></h1>
+    <h3>Личная информация</h3>
+    <p>Имя*</p>
+    <input class="search-input" type="text" name="name" placeholder=" " required >
+    <p>Номер телефона*</p>
+    <input class="search-input" type="tel" name="phone" placeholder=" " pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"  minlength="11" maxlength="18" required >
+    <p>Email*</p>
+    <input  class="search-input" type="Email" name="Email" placeholder=" " required >
+    <p>Выберите город</p>
+    <select class="search-input1" name="">
+      <option value="">Москва</option>
+    </select>
+    <h2>Информация о семье</h2>
+    <p>Семейное положение</p>
+    <input type="radio" name="state" id="state1" value="Состою в браке"/>
+    <label for="state1">Состою в браке</label><br>
+    <input type="radio" name="state" id="state2" value="Не состою в браке"/>
+    <label for="state2">Не состою в браке</label><br>
+    <p>Дети</p>
+    <input type="radio" name="state1" id="state3" value="Есть дети"/>
+    <label for="state3">Есть дети</label><br>
+    <input type="radio" name="state1" id="state4" value="Нет детей"/>
+    <label for="state4">Нет детей</label><br>
+    <h2>Дополнительная информация</h2>
+    <p>Выберите интересные для вас темы</p>
+    <div class="left-checkbox">
+      <input class="style-checkbox" type="checkbox" name="Музыка" id="Музыка"/><label for="Музыка">Музыка</label><br>
+      <input class="style-checkbox" type="checkbox" name="Кино" id="Кино"/><label for="Кино">Кино</label><br>
+      <input class="style-checkbox" type="checkbox" name="Спорт" id="Спорт"/><label for="Спорт">Спорт</label><br>
+    </div>
+    <div class="right-checkbox">
+       <input class="style-checkbox" type="checkbox" name="Политика" id="Политика"/><label for="Политика">Политика</label><br>
+       <input class="style-checkbox" type="checkbox" name="Животные" id="ЖивотныеЖивотные"/><label for="Животные">Животные</label><br>
+       <input class="style-checkbox" type="checkbox" name="Еда" id="Еда"/><label for="Еда">Еда</label>
+    </div>
+      <div id="box1">
+      <br><br><br><br><br><br><center><input class="search-input2" placeholder=" " type="submit" value="SEND FEEDBACK"/></center>
+      </div>
+    </form>
+       </div>
+    </main>
+  </body>
+</html>
