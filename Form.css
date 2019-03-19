@@ -1,0 +1,71 @@
+
+body
+{
+  background: #C0C0C0;
+}
+main
+{
+  font-family: Helvetica, sans-serif;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: grey;
+
+}
+.box {
+    background: #f0f0f0;
+    height: 900px;
+    width: 600px;
+    padding: 15px;
+    margin-top: 50px;
+  }
+.left-checkbox
+{
+  float: left;
+  padding: 5px;
+}
+.right-checkbox
+{
+  float: right;
+  margin-right: 20%;
+}
+.search-input {
+  border: 1px solid #dadada;
+  border-radius: 5px 5px 5px 5px;
+  height: 30px;
+  width: 40%;
+  padding-left: 10px;
+  font-size: 0.8em;
+  vertical-align: bottom;
+  box-sizing: border-box;
+}
+.search-input1
+{
+  border: 1px solid #dadada;
+  border-radius: 5px 5px 5px 5px;
+  height: 30px;
+  width: 90%;
+  padding-left: 10px;
+  font-size: 0.8em;
+  vertical-align: bottom;
+  box-sizing: border-box;
+}
+.search-input2
+{
+  border-radius: 5px 5px 5px 5px;
+  height: 30px;
+  width: 40%;
+  font-size: 1em;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  background-color: #C0C0C0;
+  font-family: Helvetica, sans-serif;
+  color: grey;
+}
+.style-checkbox
+{
+  width: 17px;
+  height: 17px;
+}
+
+  input:invalid:not(:placeholder-shown) {border-color: red;}
+  input:valid:not(:placeholder-shown) {border-color: green;}
